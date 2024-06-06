@@ -1,0 +1,179 @@
+/* Reset general */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para header */
+header {
+  background-color: rgb(37, 39, 53);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* Estilos para main */
+.main-index {
+  position: relative;
+}
+
+.imagenes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+/* Estilos para la galería de imágenes */
+.imagenes-del-lugar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.imagenes-del-lugar img {
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  height: auto;
+  border-radius: 10px;
+}
+
+.imagenes {
+  width: 33%;
+  height: auto;
+  padding: 5px;
+}
+
+.titulo-principal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 99px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Estilos para article */
+.article-index {
+  padding: 20px;
+  text-align: center;
+}
+
+.suscripciones-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.suscripciones {
+  width: 33%;
+  padding: 5px;
+}
+
+/* Estilos para footer */
+.footer-index {
+  background-color: rgb(37, 39, 53);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+}
+
+footer nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer nav ul li {
+  margin-left: 10px;
+}
+
+footer nav ul li a {
+  display: flex;
+  align-items: center;
+}
+
+footer nav ul li img {
+  width: 30px;
+  height: auto;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .imagenes {
+      width: 100%;
+  }
+
+  .suscripciones {
+      width: 100%;
+  }
+
+  .titulo-principal {
+      font-size: 2rem;
+  }
+
+  header nav ul li {
+      margin-left: 10px;
+  }
+
+  header img {
+      width: 100px;
+  }
+
+  .footer-logo {
+      width: 80px;
+  }
+
+  footer nav ul li img {
+      width: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo-principal {
+      font-size: 1.5rem;
+  }
+
+  header nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  header nav ul li {
+      margin-left: 0;
+      margin-top: 5px;
+  }
+}
