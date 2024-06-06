@@ -131,7 +131,7 @@ footer nav ul li img {
   height: auto;
 }
 
-/* Responsividad */
+/* Responsive */
 @media (max-width: 768px) {
   .imagenes {
       width: 100%;
