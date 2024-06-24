@@ -149,7 +149,7 @@ button{
 header nav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 35px;
   font-family: "Public Sans", sans-serif;
   font-weight: 600;
 }
@@ -171,8 +171,8 @@ header nav ul li a {
       margin-top: -300px;
   }
   .imagenes-nosotros {
-    width: 49%;
-    margin-top: 0px;
+    width: 100%;
+    margin-top: -100px;
 }
   .suscripciones-container {
     display: flex;
@@ -211,10 +211,12 @@ header nav ul li a {
       margin-left: 10px;
       margin-right: 25px;
   }
-   
-  .titulo-principal-nos {
+  .nosotros-texto{
+    font-size: 20px;
+  }
+  .tit-prin-nos-desktop {
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #d7ff37;
@@ -310,7 +312,7 @@ header nav ul li a {
     color: white;}
 
     .footer-logo {
-      width: 120px;
+      width: 145px;
       height: auto;
     }
     
@@ -329,7 +331,7 @@ header nav ul li a {
     }
     
     footer nav ul li img {
-      width: 30px;
+      width: 35px;
       height: auto;
     } 
     a {
@@ -512,9 +514,9 @@ background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
     padding: 23px;
     text-align: center;
   }
-  .titulo-principal-nosotros {
+  .titulo-principal-nos {
     position: absolute;
-    top: 22%;
+    top: 12%;
     left: 52%;
     transform: translate(-50%, -50%);
     color: #d7ff37;
@@ -523,11 +525,18 @@ background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.5);
     text-align: center;
   }
+  .nosotros-texto{
+    text-align: center;
+  }
   .imagenes {
     width: 100%;
     height: auto;
     padding-bottom: 0px;
     padding-top: 0%;
+}
+.imagenes-nos-mobile {
+  width: 100%;
+  margin-top: 0px;
 }
 /* Estilos para la galería de imágenes */
 .imagenes-del-lugar {

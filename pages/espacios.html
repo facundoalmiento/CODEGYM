@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,15 +11,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital,wght@0,600;1,600&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <!-- <title>Document</title> -->
 </head>
 
 <body>
-    <div>
+    <div class="grilla">
         <header>
-            <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div>
+                <a href="../index.html"><img class=".logo" src="../multimedia/logo-codegym.png" alt="logogym"></a>
+            </div>
+            <nav class="navbar navbar-dark bg-dark fixed-top logo">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html"><img src="../multimedia/logo-codegym.png" alt="logo CodeGym"></a>
+                    <a href="../index.html"><img class="navbar-brand" src="../multimedia/logo-codegym.png"
+                            alt="logo CodeGym"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                         aria-label="Toggle navigation">
@@ -31,27 +36,37 @@
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link"></a><a href="../index.html">Inicio</a></a>
+                        <div><!--class="offcanvas-body index-nav" -->
+                            <ul> <!--class="navbar-nav justify-content-end flex-grow-1 pe-3" -->
+                                <li>
+                                    <a><a href="../index.html">Inicio</a></a><!--class="nav-link" -->
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"></a><a href="nosotros.html">Nosotros</a></a>
+                                <li> <!--class="nav-item"-->
+                                    <a><a href="../pages/nosotros.html">Nosotros</a></a> <!--class="nav-link" -->
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"></a><a href="espacios.html">Espacios</a></a>
+                                <li> <!--class="nav-item"-->
+                                    <a><a href="../pages/espacios.html">Espacios</a></a><!--class="nav-link" -->
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"></a><a href="actividades.html">Actividades</a></a>
+                                <li> <!--class="nav-item"-->
+                                    <a><a href="../pages/actividades.html">Actividades</a></a><!--class="nav-link" -->
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"></a><a href="contacto.html">Contacto</a></a>
+                                <li> <!--class="nav-item"-->
+                                    <a><a href="../pages/contacto.html">Contacto</a></a><!--class="nav-link" -->
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
+                    <div class="navegacion-index">
+                        <nav>
+                            <ul>
+                                <li><a href="../index.html">Inicio</a></li>
+                                <li><a href="nosotros.html">Nosotros</a></li>
+                                <li><a href="espacios.html">Espacios</a></li>
+                                <li><a href="actividades.html">Actividades</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
             </nav>
         </header>
     <main>
