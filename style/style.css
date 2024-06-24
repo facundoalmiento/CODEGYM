@@ -200,7 +200,7 @@ header nav ul li a {
       font-size: 170px;
       position: relative;
       top: 112px;
-      left: 40%;
+      left: 50%;
       transform: translate(-50%, -50%);
       color: #d5fd37;
       font-family: "Anton", sans-serif;
@@ -242,6 +242,17 @@ header nav ul li a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
   }
+  .titulo-principal-paginas {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d7ff37;
+    font-family: "Anton", sans-serif;
+    font-size: 180px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
   .imagenes-container {
     display: flex;
     flex-wrap: wrap;
@@ -250,7 +261,7 @@ header nav ul li a {
   /* Estilos para la galería de imágenes */
   .imagenes-del-lugar {
     display: flex;
-    padding-top: 10px;
+    padding-top: 225px;
     margin-bottom: 33px;
     flex-wrap: wrap;
     gap: 3px;
@@ -273,7 +284,7 @@ header nav ul li a {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2rem;
-  padding-top: 100px;
+  padding-top: 35px;
 }
 
 .actividad {
@@ -441,6 +452,17 @@ header nav ul li a {
     font-family: "Public Sans", sans-serif;
     font-weight: 600;
   }
+  .titulo-principal-mobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d7ff37;
+    font-family: "Anton", sans-serif;
+    font-size: 120px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.5);
+    text-align: center;
+  }
   
   /* Estilos para main */
    .main-index {
@@ -541,7 +563,7 @@ background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 /* Estilos para la galería de imágenes */
 .imagenes-del-lugar {
   display: flex;
-  padding-top: 185px;
+  padding-top: 108px;
   margin-bottom: 33px;
   flex-wrap: wrap;
   gap: 3px;
@@ -557,17 +579,7 @@ background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
     color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
     text-decoration: none;
 }
-.titulo-principal-mobile {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #d7ff37;
-  font-family: "Anton", sans-serif;
-  font-size: 120px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 5.5);
-  text-align: center;
-}
+
 .titulo-secundario {
   position: relative;
   top: 40%;
@@ -591,7 +603,7 @@ background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 .titulo-principal-paginas {
   position: absolute;
-  top: 25%;
+  top: 27%;
   left: 55%;
   transform: translate(-50%, -50%);
   color: #d7ff37;
