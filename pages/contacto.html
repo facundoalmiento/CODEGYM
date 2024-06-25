@@ -70,24 +70,48 @@
             </nav>
         </header>
     <main>
-        <section>
+        <!-- <section>
             <h1 class="titulo-principal-paginas">Contacto</h1>
-        </section>
-        <section>
+        </section> -->
+        <!-- <section>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30805826.710146647!2d-122.41744112091435!3d19.521129100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cefb0edc1d8df%3A0xa8e14d8427776c33!2sHARD%20CODE%20GYM!5e0!3m2!1ses!2sar!4v1714777311547!5m2!1ses!2sar"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> -->
+        <section class="location">
+            <h2>CONTACTO</h2>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0862376835025!2d144.96307831552733!3d-37.81410797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772b94dbf7e7c2!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1655547402554!5m2!1sen!2sau"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </section>
-
-        <form action="form.php" method="post">
-            <label for="">Nombre y Apellido</label>
-            <input type="text" name="Nombre" id="Nombre" placeholder="Facundo Almiento">
-            <label for="">Contraseña</label>
-            <input type="password" name="" id="">
-            <p>Comentarios</p>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
+        <main class="main-contacto">
+            <section class="contact-form">
+                <h2>Envíanos un mensaje</h2>
+                <form action="form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button class="boton-enviar" type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
     </main>
     <footer class="footer-index">
         <img class="footer-logo" src="../multimedia/logo-codegym.png" alt="Logo CodeGym">

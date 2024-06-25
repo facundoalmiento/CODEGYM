@@ -1,0 +1,35 @@
+.imagenes-nosotros {
+    width: 100%;
+    margin-top: -100px;
+}
+.nosotros-texto{
+    font-size: 20px;
+  }
+  .tit-prin-nos-desktop {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d7ff37;
+    font-family: "Anton", sans-serif;
+    font-size: 180px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  .main-index-nosotros {
+    padding-top: 100px;
+  }
+  .texto-nosotros {
+    text-align: center;
+  }
+  .titulo-secundario-nos {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #252735;
+    font-family: "Anton", sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }

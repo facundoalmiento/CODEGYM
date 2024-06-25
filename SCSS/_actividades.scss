@@ -1,0 +1,26 @@
+.actividades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 35px;
+  }
+  .actividad {
+    background-color: #373b3e24;
+    border: 1px solid #d7ff37;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .actividad h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .actividad p {
+    color: #666;
+  }
